@@ -1,0 +1,13 @@
+:root {
+    --main-bg-col: #800080;
+    --light-pink_blush: #fec5e5;
+    --light-pink_flamingo: #fda4ba;
+    --light-orange_strawberry: #fc4c4e;
+    --light-orange_punch: #f25278;
+    --pink_magenta: #e11584;
+    --pink_pink: #f699cd;
+}
+*{
+    background: var(--main-bg-col);
+    color: white;
+}
