@@ -1,5 +1,5 @@
-:root {
-    --main-bg-col: #800080;
+:root{
+    --main-bg-col: #120226;
     --light-pink_blush: #fec5e5;
     --light-pink_flamingo: #fda4ba;
     --light-orange_strawberry: #fc4c4e;
@@ -7,7 +7,16 @@
     --pink_magenta: #e11584;
     --pink_pink: #f699cd;
 }
-*{
+html, button{
     background: var(--main-bg-col);
-    color: white;
+}
+*{
+    color: #fff;
+    margin: 0;
+}
+svg{
+    fill: var(--light-pink_blush);
+    width: 100vw; height: 100%; fill-opacity: 0.4;
+    scale: 1; padding:0; margin: 0; border: 0;
+    position: absolute; top: 0; left: 0;
 }
