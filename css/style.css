@@ -6,6 +6,8 @@
     --light-orange_punch: #f25278;
     --pink_magenta: #e11584;
     --pink_pink: #f699cd;
+    --bg-brown_rosewood: #9e4244;
+    --darken_adjust-layer: #000000ff;
 }
 html, button{
     background: var(--main-bg-col);
@@ -13,10 +15,56 @@ html, button{
 *{
     color: #fff;
     margin: 0;
+    z-index: 1 inherit;
 }
 svg{
-    fill: var(--light-pink_blush);
-    width: 100vw; height: 100%; fill-opacity: 0.4;
+    /* fill: var(--light-pink_blush); */
+    width: 100vw; height: 100vw; fill-opacity: .6;
     scale: 1; padding:0; margin: 0; border: 0;
-    position: absolute; top: 0; left: 0;
+    position: fixed; top: 0; left: 0;
+    z-index: -1;
+}
+#dark_layer{
+    fill-opacity: 1;
+    fill: var(--darken_adjust-layer);
+}
+.bgf1{
+    fill: var(--light-pink_blush);
+    top: 250vh;
+    scale: 5;
+    left: -58.74vw;
+}
+.bgf2{
+    fill: var(--pink_pink);
+    top: 196vh;
+    scale: 3.9;
+    left: 38.56vw;
+}
+.bgf3{
+    fill: var(--light-pink_flamingo);
+    top: 142.2vh;
+    scale: 3.14;
+    left: 97.66vw;
+}
+.bgf4{
+    fill: var(--light-orange_punch);
+    top: 102.4vh;
+    scale: 2.82;
+    left: -48.6vw;
+}
+.bgf5{
+    fill: var(--pink_magenta);
+    top: 47.9vh;
+    scale: 1.97;
+    left: -29.4vw;
+}
+.bgf6{
+    fill: var(--light-orange_strawberry);
+    top: 20.4vh;
+    scale: 1.312;
+    left: 8.12vw;
+}
+.bgf7{
+    fill: var(--bg-brown_rosewood);
+    scale: 1.15;
 }

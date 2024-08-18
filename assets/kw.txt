@@ -3,3 +3,28 @@ total, blaze, FALL
 fire -> red-yellow
 brown bg? ourple
 FX
+
+avg spacing of 7 flames = 12.5%
+
+number 1 is: 1.150
+number 2 is: 1.312
+number 3 is: 1.470
+number 4 is: 1.620
+number 5 is: 1.766
+number 6 is: 1.928
+
+number 1 is: 0.004
+number 2 is: 0.204
+number 3 is: 0.379
+number 4 is: 0.550
+number 5 is: 0.852
+number 6 is: 1.228
+number 7 is: 1.533
+
+number 1 is: 0.0
+number 2 is: -1.312
+number 3 is: -2.94
+number 4 is: -4.86
+number 5 is: 1.766
+number 6 is: 3.856
+number 7 is: -5.874

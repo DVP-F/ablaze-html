@@ -9,4 +9,9 @@ function uIn(q, a){
 function main(){
     ;
 }
-main()
+function bgDarkAdjust(val){
+    document.documentElement.style.setProperty("--darken-adjust_layer", val)
+}
+function clear(){
+    console.clear()
+}
